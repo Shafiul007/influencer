@@ -106,6 +106,10 @@ font-family: 'Work Sans', sans-serif;
     align-items: center;
     padding: 15px;
 }
+.category > div:hover{
+    padding:18px;
+    box-shadow:8px 8px 5px grey,-8px -8px 5px grey;
+}
 .category > div > .txt{
     text-align: left;
     justify-content: flex-start;
