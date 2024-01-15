@@ -206,3 +206,122 @@ footer i{
     margin-right: 10px;
     color: rgb(255, 0, 0);
 }
+@media screen and (max-width: 576px){
+    .nav{
+        padding:20px;
+        flex-direction: column-reverse;
+    }
+    .nav ul{
+        margin-bottom: 20px;
+        margin-left:50px;
+       
+      }
+      .influence{
+      
+        padding:20px;
+       flex-direction: column-reverse;
+    }
+    .influence .text{
+        padding-right:10px;
+    }
+    .influence .text h1{
+        font-size:2rem;
+    }
+    .sponsor{
+        padding:10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .sponsor img{
+        margin-bottom: 30px;
+    }
+    .category{
+        padding:20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9/span 1);
+        gap: 20px;
+    }
+    .part1{
+   
+
+        grid-column:1/span 1;
+        grid-row: 1/span 1;
+    }
+    .part2{
+        
+        border:1px solid grey;
+        border-radius:8px;
+        grid-column:1/span 1;
+        grid-row: 2/span 1;
+    }
+    .part3{
+      
+        border:1px solid grey;
+        border-radius:8px;
+        grid-column:1/span 1;
+        grid-row: 3/span 1;
+    }
+    .part4{
+       
+        border:1px solid grey;
+        border-radius:8px;
+        grid-column:1/span 1;
+        grid-row: 4/span 1;
+    }
+    .part5{
+     
+        border:1px solid grey;
+        border-radius:8px;
+        grid-column:1/span 1;
+        grid-row:5/span 1;
+    }
+    .part6{
+      
+        border:1px solid grey;
+        border-radius:8px;
+        grid-column:1/span 1;
+        grid-row: 6/span 1;
+    }
+    .part7{
+     
+        border:1px solid grey;
+        border-radius:8px;
+        grid-column:1/span 1;
+        grid-row: 7/span 1;
+    }
+    .part8{
+     
+        border:1px solid grey;
+        border-radius:8px;
+        grid-column:1/span 1;
+        grid-row:8/span 1;
+    }
+    .part9{
+    
+        border:1px solid grey;
+        border-radius:8px;
+        grid-column:1/span 1;
+        grid-row: 9/span 1;
+    }
+    main a{
+        text-decoration:none;
+        color: crimson;
+        padding-left:320px;
+        padding-bottom: 30px;
+     }
+     .last{
+        padding:20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .last div{
+        margin-bottom: 15px;
+        margin-left:0px;
+    }
+    .last div h1{
+
+        margin-bottom: 15px;
+    }
+}
