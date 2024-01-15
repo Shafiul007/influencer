@@ -95,13 +95,14 @@ font-family: 'Work Sans', sans-serif;
     gap: 20px;
 }
 
-.category > div{text-align: center;
+.category > div{
     justify-content: center;
     align-items: center;
     padding: 15px;
 }
 .category > div > .txt{
     text-align: left;
+    justify-content: flex-start;
 }
 .part1{
    
